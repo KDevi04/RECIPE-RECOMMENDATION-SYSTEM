@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  h2 {
+    color: #666;
+  }
+  
+  p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  li:before {
+    content: "\2022";
+    color: #666;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5px;
+  }
+  
+  h2 {
+    color: black;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+
+    tr:nth-child(odd) {background-color:lightblue;}
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    h2 {
+        text-align: center;
+    }
+    .review-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .review-form input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    .reviews {
+        margin-top: 20px;
+    }
+    .review {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .review p {
+        margin: 0;
+    }
+    .review .user {
+        font-weight: bold;
+    }
