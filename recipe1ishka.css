@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .recipe {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center; /* Center the content */
+  }
+  
+  .recipe-title {
+    text-align: center;
+  }
+  
+  .recipe-image {
+    display:block;
+    margin: 20px auto; /* Center the image */
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .recipe-details {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  .ingredient {
+    margin: 10px;
+    position: relative;
+    width: 100px; /* Set the width to desired square size */
+    height: 100px; /* Set the height to match width */
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflowing content */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+    transition: transform 0.3s ease; /* Add transition effect */
+  }
+
+  
+  .ingredient img {
+    width: 100%; /* Make the image fill the square */
+    height: 100%; /* Make the image fill the square */
+    display: block;
+    transition: transform 0.3s ease; /* Add transition effect */
+  }
+  
+  .ingredient:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .ingredient:hover img {
+    transform: scale(1.1); /* Scale up image on hover */
+  }
+  
+  .calories {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease; /* Add transition effect */
+  }
+  
+  .ingredient:hover .calories {
+    display: block;
+    opacity: 1; /* Show calories on hover */
+  }
+  .direction {
+    margin-top: 20px;
+    text-align: left; /* Align directions to the left */
+  }
+  
+  .step {
+    margin-bottom: 10px;
+  }
+  
+  .quantity {
+    font-weight: bold;
+  }
+  
+  .description {
+    margin-left: 10px;
+  }
+  #content
+{
+        padding:100px 0px;
+        background-color:rgba(251, 249, 249, 0);
+}
+.img-row
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img-left
+{
+    text-align: center;
+}
+.hero
+{
+    width:300px;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+}

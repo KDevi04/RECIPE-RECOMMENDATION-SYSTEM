@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .recipe {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center; /* Center the content */
+  }
+  
+  .recipe-title {
+    text-align: center;
+  }
+  
+  .recipe-image {
+    display:block;
+    margin: 20px auto; /* Center the image */
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .recipe-details {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .ingredient {
+    padding: 25px;
+    padding-right: 25px;
+    margin: 10px;
+    position: relative;
+    width: 100px; /* Set the width to desired square size */
+    height: 100px; /* Set the height to match width */
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflowing content */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+    transition: transform 0.3s ease; /* Add transition effect */
+  }
+
+  
+  .ingredient img {
+    width: 100%; /* Make the image fill the square */
+    height: 100%; /* Make the image fill the square */
+    display: block;
+    transition: transform 0.3s ease; /* Add transition effect */
+  
+  }
+  
+  .ingredient:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .ingredient:hover img {
+    transform: scale(1.1); /* Scale up image on hover */
+  }
+  
+  .calories {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 5px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease; /* Add transition effect */
+  }
+  .ingredient:hover .calories {
+    display: block;
+    opacity: 1; /* Show calories on hover */
+  }
+  .direction {
+    text-align:left; /* Align directions to the left */
+    margin-left: 20%;
+    
+  }
+  
+  .step {
+    margin-bottom: 10px;
+  }
+  
+  .quantity {
+    font-weight: bold;
+  }
+  
+  .description {
+    margin-left: 10px;
+  
+  }
+  #content
+{
+        padding:100px 0px;
+        background-color:rgba(251, 249, 249, 0);
+        font-size: 40px;
+}
+.img-row
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.hero
+{
+    width:300px;
+    background-repeat: no-repeat;
+}
+.nutrition table {
+  border-radius: 15px;
+  border-collapse: collapse;
+  width: 75%; 
+  max-width: 1300px; 
+  margin: 0 auto; 
+  border: 3px solid black;
+  background-color:bisque;
+  color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.nutrition th, .nutrition td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.nutrition th {
+  background-color: #f2f2f2;
+}
+
+.nutrition tr:hover {
+  background-color:burlywood;
+  color: white;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.nutrition-info {
+  display: flex;
+  justify-content:space-evenly;
+  padding: 20px;
+  align-items: center;
+}
+#buttonnut {
+  background-color: #4CAF50; /* Green background */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+#buttonnut:hover {
+  background-color:chocolate;
+}
+.youtube-btn {
+  background-color: #ff0000; 
+  color: #ffffff; 
+  padding: 10px 20px;
+  font-size: 16px; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease; 
+ margin-left: 50%;
+ margin-bottom: 25px;
+}
+
+.youtube-btn:hover {
+  background-color: #cc0000;
+}
