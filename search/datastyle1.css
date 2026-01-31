@@ -1,0 +1,16 @@
+body{
+    padding:50px;
+    background-image: url('pink.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+  }
+  .container{
+    max-width: 600px;
+    padding:50px;
+    margin-top:5%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .form-group
+  {
+    margin-bottom:30px;
+  }

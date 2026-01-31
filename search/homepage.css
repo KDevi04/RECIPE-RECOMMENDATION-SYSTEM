@@ -1,0 +1,14 @@
+video{
+position:absolute;
+height: 100vh;
+width: 100%;
+object-fit: cover;
+}
+ a.btn-outline-secondary.text-light {
+    padding: 5px;
+    border-color: azure;
+  }
+  a.btn-outline-secondary.text-light:hover {
+    background-color: gray;
+    border-color: gray;
+  }
