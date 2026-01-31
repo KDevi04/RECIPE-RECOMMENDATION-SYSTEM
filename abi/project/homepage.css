@@ -1,0 +1,26 @@
+video{
+position:relative;
+width: 100%;
+object-fit: cover;
+height: 100vh;
+
+}
+ a.btn-outline-secondary.text-light {
+    padding: 10px;
+    border-color: azure;
+  }
+  a.btn-outline-secondary.text-light:hover {
+    background-color: gray;
+    border-color: gray;
+  }
+footer{
+  margin-top: 10px;
+  width:100%;
+}
+.navbar {
+  padding-top: 20px; 
+}
+img:hover{
+  transform: scale(1.1);
+  opacity: 1; 
+}
